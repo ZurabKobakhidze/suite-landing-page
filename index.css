@@ -1,0 +1,598 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Barlow:wght@500;700;900&family=Epilogue:wght@400;700&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 81px;
+}
+
+.header_button {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.14px;
+  color: #172339;
+  border: 1px solid #172339;
+  border-radius: 6px;
+  width: 182px;
+  height: 48px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.header_button:hover {
+  background: #172339;
+  border: 1px solid #172339;
+  border-radius: 6px;
+  transition: ease 0.4s;
+  color: white;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 56px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.main_text {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  align-items: center;
+}
+
+.path_2_mobile {
+  padding-left: 114.5px;
+}
+
+.h1_text {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 44px;
+  letter-spacing: -0.527778px;
+  color: #172339;
+  margin-top: 8.3px;
+  width: 343px;
+}
+
+.bold_text {
+  font-weight: 700;
+}
+
+.p_text {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.0888889px;
+  color: #49566d;
+  margin-top: 32px;
+  width: 343px;
+}
+
+.main_container_button {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  color: #faf8f6;
+  background: #172339;
+  border-radius: 6px;
+  width: 256px;
+  height: 61px;
+  margin-top: 32px;
+  cursor: pointer;
+}
+
+.main_container_button:hover {
+  background: linear-gradient(135deg, #a060ff 0%, #cb30e3 49.21%, #ffa84e 100%);
+  border-radius: 6px;
+  transition: ease 0.4s;
+  border: none;
+}
+
+.image_hero_mobile {
+  display: block;
+  margin-top: 55px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin-top: 56px;
+  width: 343px;
+}
+
+.data_number {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #172339;
+}
+
+.data_names {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 2.5px;
+  color: #49566d;
+}
+
+.second_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 237px;
+}
+
+.blue_box {
+  background: #172339;
+  border-radius: 15px;
+  width: 100%;
+  background-image: url(./Group\ 7.svg);
+  background-repeat: no-repeat;
+  background-size: 249px;
+  background-position: top center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 64px;
+  padding-bottom: 64px;
+  margin-bottom: -135px;
+  z-index: 1;
+}
+
+.inside_blue_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: -181px;
+}
+
+.image_jeremy_small {
+  display: block;
+}
+
+.image_jeremy_desktop {
+  display: none;
+}
+
+.path_white {
+  margin-top: 40px;
+}
+
+.blue_box_text_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h1_text_2 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.416667px;
+  color: #faf8f6;
+  margin-top: 37px;
+}
+
+.bold_text_white {
+  font-weight: 700;
+}
+
+.p_text_white {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.09px;
+  color: #f3ede7;
+  width: 343px;
+  margin-top: 40px;
+}
+
+.JEREMY_ROBINSON {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.18px;
+  color: #faf8f6;
+  margin-top: 40px;
+}
+
+.fylo {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 2.5px;
+  color: #f3ede7;
+}
+
+.footer {
+  background: #f3ede7;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.foote_box {
+  padding-top: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 33px;
+}
+
+.copyright {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.0833333px;
+  color: #49566d;
+}
+
+.social_icons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 28px;
+}
+
+.fb_icon {
+  display: block;
+  cursor: pointer;
+}
+
+.fb_icon:hover {
+  fill: #172339;; 
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  transition: ease 0.4s;
+}
+
+.twitter_icon{
+  display: block;
+  cursor: pointer;
+}
+
+.twitter_icon:hover{
+  fill: #172339;; 
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  transition: ease 0.4s;
+}
+
+.insta_icon{
+  display: block;
+  cursor: pointer;
+}
+
+.insta_icon:hover{
+  fill: #172339;; 
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  transition: ease 0.4s;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .header_button {
+    width: 219px;
+    height: 56px;
+    border: 1px solid #172339;
+    border-radius: 6px;
+  }
+
+  .main_container {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 80px;
+  }
+
+  .main_text {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    align-items: flex-start;
+    background-image: url(./image-hero-portrait.png);
+    background-repeat: no-repeat;
+    height: 482px;
+    background-size: 281px 482px;
+    background-position: right;
+  }
+
+  .h1_text {
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -0.777778px;
+    color: #172339;
+    width: 530px;
+  }
+
+  .p_text {
+    width: 350px;
+    margin-top: 40px;
+  }
+
+  .main_container_button {
+    margin-top: 40px;
+  }
+
+  .path_2_mobile {
+    width: 231px;
+    height: 26px;
+    padding-left: 223px;
+    margin-top: 46px;
+  }
+
+  .image_hero_mobile {
+    display: none;
+  }
+
+  .main_data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin-top: 56px;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .box {
+    width: 223px;
+  }
+
+  .second_container {
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+
+  .blue_box {
+    background-size: 335px;
+    background-position: top -73px center;
+    margin-bottom: -465px;
+  }
+
+  .p_text_white {
+    width: 573px;
+  }
+
+  .footer {
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+
+  .foote_box {
+    padding-top: 535px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 50px;
+  }
+
+  .header_button {
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -0.16px;
+    color: #172339;
+  }
+
+  .main_container {
+    padding-left: 165px;
+    padding-right: 165px;
+    margin-top: 67px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 96px;
+  }
+
+  .main_text {
+    background-image: url(./image-hero-portrait@2x.png);
+    height: 600px;
+    background-size: auto 600px;
+  }
+
+  .path_2_mobile {
+    width: 287px;
+    height: 36px;
+    padding-left: 287px;
+  }
+
+  .h1_text {
+    width: 635px;
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 78px;
+    letter-spacing: -1px;
+    color: #172339;
+  }
+
+  .p_text {
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #49566d;
+  }
+
+  .main_data {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    align-items: flex-start;
+    gap: 63px;
+    margin-top: 106px;
+  }
+
+  .box {
+    width: 190px;
+    align-items: flex-start;
+  }
+
+  .second_container {
+    padding-left: 165px;
+    padding-right: 165px;
+    margin-top: 200px;
+  }
+
+  .blue_box {
+    padding-bottom: 0;
+    background-image: url(./pattern-blur.svg);
+    background-size: 509px;
+    background-position: bottom -50px left 37px;
+    margin-bottom: -265px;
+  }
+
+  .inside_blue_box {
+    display: flex;
+    flex-direction: row;
+    margin-top: -55px;
+    align-items: flex-start;
+  }
+
+  .image_jeremy_small {
+    display: none;
+  }
+
+  .image_jeremy_desktop {
+    display: block;
+    width: 375px;
+  }
+
+  .path_white {
+    height: 52px;
+    width: 64.5px;
+    margin-left: 30px;
+    margin-top: 216px;
+  }
+
+  .blue_box_text_box {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 53px;
+  }
+
+  .h1_text_2 {
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    color: #faf8f6;
+    margin-top: 133px;
+  }
+
+  .p_text_white {
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0.1px;
+    color: #f3ede7;
+    text-align: inherit;
+    width: 350px;
+  }
+
+  .footer {
+    padding-right: 165px;
+    padding-left: 165px;
+    padding-bottom: 72px;
+  }
+
+  .foote_box {
+    padding-top: 360px;
+  }
+}
